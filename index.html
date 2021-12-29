@@ -5,6 +5,26 @@
     <meta charset="UTF-8">
 	<script>
 	
+	var html = '<label for="conjuge">Nome do cônjuge:</label><br />';
+		html += '<input type="text" id="conjuge" name="conjuge" value="" />';
+	
+	function validaEmail() {
+		var email = document.getElementById("email").value;
+		var invalido = false;
+		invalido = email.indexOf('@')==-1 || email.indexOf('.')==-1 || email.length == 0;
+		if(invalido)alert("email inválido");
+		
+	}
+	
+	
+	function myFunction() {
+		var estado = document.getElementById("estado_civil").value;
+		if(estado == "casado"){
+			document.getElementById("oculto").innerHTML = html;
+			document.getElementById("oculto").style.visibility = "visible";
+		}
+		else document.getElementById("oculto").style.visibility = "hidden";
+	}
 	
 	
 	</script>
@@ -76,12 +96,12 @@ label {
 	  
 	  <div>
 		<label for="email">Email:</label><br />
-		<input type="text" id="email" name="email" value="" />
+		<input type="text" id="email" name="email" value="" onfocusout="validaEmail()" />
 	  </div>
 	  
 	  <div>
 		<label for="estado_civil">Estado civil:</label><br />
-		<select name="estado_civil" id="estado_civil">
+		<select name="estado_civil" id="estado_civil" onchange="myFunction()">
 			<option value="solteiro" selected>Solteiro(a)</option>
 			<option value="casado" >Casado(a)</option>
 		</select>
@@ -89,11 +109,11 @@ label {
 	  
 
 	  <div id="oculto">
-		<label for="conjuge">Nome do cônjuge:</label><br />
-		<input type="text" id="conjuge" name="conjuge" value="" />
+		
 	  </div>
 		
 		<button type="submit">Enviar</button>
+		
 	</form>
   </body>
 </html>
