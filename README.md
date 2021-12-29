@@ -10,18 +10,18 @@
  - [X] Preparação
    - [X] Escrever esse README.md
    - [x] Sincronizar repositório local com o remoto
- - [ ] HTML e CSS
+ - [x] HTML e CSS
    - [x] Criar formulário HTML funcional com logo e texto de boas vindas.
-   - [ ] Criar o CSS da página para organizar e estilizar os elementos.
- - [ ] Javascrip
-     - [ ] Aviso sobre a formatação do campo email
-     - [ ] Baseado em uma ação no formulário, exibir mais um pedaço do memso
- - [ ] Criar o banco e uma tabela no bando de dados
- - [ ] Criar o PHP e receber o action do form
-     - [ ] Exibir os dados do action na tela
-     - [ ] Conectar na base de dados
-     - [ ] Selecionar o banco em questão
-     - [ ] Inserir dados do action do formulário na tabela
+   - [x] Criar o CSS da página para organizar e estilizar os elementos.
+ - [x] Javascrip
+     - [x] Aviso sobre a formatação do campo email
+     - [x] Baseado em uma ação no formulário, exibir mais um pedaço do memso
+ - [x] Criar o banco e uma tabela no banco de dados
+ - [x] Criar o PHP e receber o action do form
+     - [x] Exibir os dados do action na tela
+     - [x] Conectar na base de dados
+     - [x] Selecionar o banco em questão
+     - [x] Inserir dados do action do formulário na tabela
 
 ## Considerações
  Para esse primeiro projeto, é preciso clarificar a qualquer leitor que não estão sendo consideradas as boas práticas de usabilidade do GIT/GitHub bem como sobre como redigir esse README.md
