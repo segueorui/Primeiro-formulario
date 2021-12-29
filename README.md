@@ -3,7 +3,7 @@
  
  Hora da paulada!
  Hoje, dia 29/12/2021 eu participei de um teste prático como candidato à vaga de emprego.
- Saiu fumaça, saíram lágrimas (exagerei, aqui), mas saiu a entrega. Não era aquela entrega linda, mas dado o tempo que tive, dado que rolou um teste escrito antes e dado a "ferrugem" de estar fora do mercado a tantos anos eu até que fiquei orgulhoso da entrega.
+ Saiu fumaça, saíram lágrimas (exagerei, aqui), mas saiu a entrega. Não era aquela entrega linda, mas dado o tempo que tive, dado que rolou um teste escrito antes e dado a "ferrugem" de estar fora do mercado há tantos anos eu até que fiquei orgulhoso da entrega.
  Porém, preciso ser honesto e ter o pé no chão. Carece de muita coisa e pensando nisso, resolvi refazer o exercício aqui, nesse meu primeiro projeto do meu Github.
  
 ## Etapas do projeto
