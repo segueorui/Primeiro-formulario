@@ -7,11 +7,13 @@
  Porém, preciso ser honesto e ter o pé no chão. Carece de muita coisa e pensando nisso, resolvi refazer o exercício aqui, nesse meu primeiro projeto do meu Github.
  
 ## Etapas do projeto
- - [X] Escrever esse README.md
- - [ ] Sincronizar repositório local com o remoto
- - [ ] Criar formulário HTML funcional com logo e texto de boas vindas.
- - [ ] Criar o CSS da página para organizar e estilizar os elementos.
- - [ ] Criar o Javascript para funcionalidades
+ - [X] Preparação
+   - [X] Escrever esse README.md
+   - [x] Sincronizar repositório local com o remoto
+ - [ ] HTML e CSS
+   - [x] Criar formulário HTML funcional com logo e texto de boas vindas.
+   - [ ] Criar o CSS da página para organizar e estilizar os elementos.
+ - [ ] Javascrip
      - [ ] Aviso sobre a formatação do campo email
      - [ ] Baseado em uma ação no formulário, exibir mais um pedaço do memso
  - [ ] Criar o banco e uma tabela no bando de dados
