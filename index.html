@@ -4,30 +4,96 @@
     <title>Um pequeno formulário</title>
     <meta charset="UTF-8">
 	<script>
+	
+	
+	
 	</script>
 	<style>
+	
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 600px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+
+input, button, select {
+    margin: 0 auto;
+    width: 500px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+button, select {
+	margin-top: 2em;
+    width: 530px;
+}
+
+/* Resolvido o problema da flutuação*/
+#visitante {
+  float: right;			
+}
+
+/* Tamanho da logo que era resolvido no HTML, passou para o CSS */
+#logo {
+  height: 120px;			
+}	
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+	clear: both;
+}
+
+#oculto {
+//  visibility: hidden;
+}
+
+
+	
 	</style>
   </head>
   <body>
-    <img src="./example-logo.png" />
-	<p>Olá, visitante!</p>
+    <img id="logo" src="./example-logo.png" />
+	<p id="visitante" >Olá, visitante!</p> 
 	<form action="processa.php" method="post">
-		<label for="nome">Nome:</label>
+	
+	  <div>
+		<label for="nome">Nome:</label><br />
 		<input type="text" id="nome" name="nome" value="" />
-		
-		<label for="email">Email:</label>
+	  </div>
+	  
+	  <div>
+		<label for="email">Email:</label><br />
 		<input type="text" id="email" name="email" value="" />
-		
-		<label for="estado_civil">Estado civil:</label>
+	  </div>
+	  
+	  <div>
+		<label for="estado_civil">Estado civil:</label><br />
 		<select name="estado_civil" id="estado_civil">
 			<option value="solteiro" selected>Solteiro(a)</option>
 			<option value="casado" >Casado(a)</option>
 		</select>
+	  </div>
+	  
+
+	  <div id="oculto">
+		<label for="conjuge">Nome do cônjuge:</label><br />
+		<input type="text" id="conjuge" name="conjuge" value="" />
+	  </div>
 		
-		<label for="conjuge">Nome do cônjuge:</label>
-		<input type="text" id="conjuge" name="conjuge" value="Enviar" />
-		
-		<input type="submit" id="envia" name="envia" value="Enviar" />
+		<button type="submit">Enviar</button>
 	</form>
   </body>
 </html>
