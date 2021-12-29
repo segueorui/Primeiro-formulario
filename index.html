@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Um pequeno formulário</title>
+    <meta charset="UTF-8">
+	<script>
+	</script>
+	<style>
+	</style>
+  </head>
+  <body>
+    <img src="./example-logo.png" />
+	<p>Olá, visitante!</p>
+	<form action="processa.php" method="post">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome" value="" />
+		
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" value="" />
+		
+		<label for="estado_civil">Estado civil:</label>
+		<select name="estado_civil" id="estado_civil">
+			<option value="solteiro" selected>Solteiro(a)</option>
+			<option value="casado" >Casado(a)</option>
+		</select>
+		
+		<label for="conjuge">Nome do cônjuge:</label>
+		<input type="text" id="conjuge" name="conjuge" value="Enviar" />
+		
+		<input type="submit" id="envia" name="envia" value="Enviar" />
+	</form>
+  </body>
+</html>
+
+
+
